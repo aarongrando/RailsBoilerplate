@@ -12,5 +12,7 @@
 //
 //= require jquery
 //= require jquery_ujs
-//= require modernizr-2.6.2.min
-//= require plugins
+//= require lib/modernizr-2.6.2.min
+//= require lib/plugins
+//= require lib/underscore
+//= require home

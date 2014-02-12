@@ -1,6 +1,5 @@
-# Ruby on Rails Boilerplate
-This project is a fast-start boilerplate for creating basic Ruby on Rails projects. It's designed to be highly compatible with the common development practices at [Red Tettemer + Partners](http://redtettemer.com) in Philadelphia. 
-
+# RTO+P Rails Boilerplate
+This project is a fast-start boilerplate for creating basic Ruby on Rails projects. It's designed to be highly compatible with the common development practices at [Red Tettemer O'Connell + Partners](http://rtop.com) in Philadelphia. 
 
 ## What's included
 - A boilerplate Gemfile with our most commonly used gems.

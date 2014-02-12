@@ -8,7 +8,6 @@ gem 'unicorn'                   # A nice HTTP Server
 gem 'foreman'                   # Use unicorn locally
 gem 'paperclip'                 # For attaching files 
 gem 'protected_attributes'      # For protecting model from mass assignment attacks with attr_accessible
-gem 'rails_12factor',   group: :production
 
 # OPTIONAL GEMS - Pick your features
 
@@ -32,9 +31,12 @@ gem 'rails_12factor',   group: :production
 # gem 'mail'                # Action Mailer for sending emails
 # gem 'roadie'              # Easy HTML email conversion
 
-gem 'dalli'                 # Cache handling for memcached
-gem 'memcachier'            # Memcached on Heroku support (install the free addon on Heroku) 
-
+group :production do
+  gem 'rails_12factor'
+  gem 'rails_stdout_logging'
+  gem 'dalli'     
+  gem 'memcachier'
+end
 group :assets do
   gem 'jquery-rails'
   gem 'sass-rails'
@@ -42,10 +44,6 @@ group :assets do
 end
 
 group :development do
-  gem 'heroku'      # For using Heroku's CLI tools
-  gem 'taps'        # For database transferring
-  gem 'sqlite3'     # For compatibility with taps gem
-  gem 'debugger'    # For debuggin'
   gem 'progress_bar'      # For better terminal outputs
   gem 'better_errors'     # For displaying better error pages
   gem 'binding_of_caller' # For providing an active console on error pages
