@@ -1,5 +1,5 @@
 source 'https://rubygems.org'
-ruby '2.0.0'
+ruby '2.1.0'
 
 gem 'rails', '~>4.0'            # Ruby on Rails framework
 gem 'pg'                        # PostgreSQL
@@ -36,6 +36,7 @@ group :production do
   gem 'rails_stdout_logging'
   gem 'dalli'     
   gem 'memcachier'
+  gem 'rails_serve_static_assets'
 end
 group :assets do
   gem 'jquery-rails'
