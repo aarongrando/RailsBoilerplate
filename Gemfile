@@ -31,17 +31,17 @@ gem 'protected_attributes'      # For protecting model from mass assignment atta
 # gem 'mail'                # Action Mailer for sending emails
 # gem 'roadie'              # Easy HTML email conversion
 
+# Assets:
+gem 'jquery-rails'
+gem 'sass-rails'
+gem 'uglifier'
+
 group :production do
   gem 'rails_12factor'
   gem 'rails_stdout_logging'
   gem 'dalli'     
   gem 'memcachier'
   gem 'rails_serve_static_assets'
-end
-group :assets do
-  gem 'jquery-rails'
-  gem 'sass-rails'
-  gem 'uglifier'
 end
 
 group :development do
