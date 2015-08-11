@@ -4,7 +4,7 @@ ruby '2.1.5'
 gem 'rails', '~>4.0'            # Ruby on Rails framework
 gem 'pg'                        # PostgreSQL
 gem 'lograge'                   # Makes our prod logs much easier to grok
-gem 'unicorn'                   # A nice HTTP Server
+gem 'puma'                      # A nice HTTP Server
 gem 'foreman'                   # Use unicorn locally
 gem 'paperclip'                 # For attaching files 
 gem 'protected_attributes'      # For protecting model from mass assignment attacks with attr_accessible
