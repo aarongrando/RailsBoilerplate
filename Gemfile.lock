@@ -151,3 +151,9 @@ DEPENDENCIES
   rails_stdout_logging
   sass-rails
   uglifier
+
+RUBY VERSION
+   ruby 2.1.5p273
+
+BUNDLED WITH
+   1.16.1

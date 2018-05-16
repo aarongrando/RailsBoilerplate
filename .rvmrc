@@ -1,1 +1,1 @@
-rvm use --create 2.1.5@boilerplate
+rvm use --create 2.3.3@boilerplate
