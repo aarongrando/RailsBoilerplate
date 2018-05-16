@@ -34,7 +34,6 @@ gem 'protected_attributes'      # For protecting model from mass assignment atta
 # Assets:
 gem 'jquery-rails'
 gem 'sass-rails'
-gem 'uglifier'
 
 group :production do
   gem 'rails_12factor'
