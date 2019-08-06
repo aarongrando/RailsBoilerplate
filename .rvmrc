@@ -1,1 +1,1 @@
-rvm use --create 2.4.3@boilerplate-2019
+rvm use --create 2.4.3@boilerplate-rails5

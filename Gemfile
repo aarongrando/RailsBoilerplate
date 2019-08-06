@@ -11,8 +11,8 @@ gem 'uglifier'
 gem 'actionpack-cloudflare'     # Allow Rails request.remote_ip to defer to CloudFlare's connecting IP
 
 # Useful optional gems
-gem 'activeadmin'               # Database administration
-gem 'devise'                    # User management
+# gem 'activeadmin'               # Database administration
+# gem 'devise'                    # User management
 # gem 'paperclip'                 # Paperclip is useful for handling file attachments associated with models
 # gem 'aws-sdk-s3'                # Allow for the storage of Paperclip attachments on S3
 
