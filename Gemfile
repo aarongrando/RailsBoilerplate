@@ -1,7 +1,7 @@
 source 'https://rubygems.org'
 ruby '2.3.3'
 
-gem 'rails', '~>4.0'            # Ruby on Rails framework
+gem 'rails', '~>4.2'            # Ruby on Rails framework
 gem 'pg'                        # PostgreSQL
 gem 'lograge'                   # Makes our prod logs much easier to grok
 gem 'puma'                      # A nice HTTP Server
@@ -33,7 +33,7 @@ gem 'protected_attributes'      # For protecting model from mass assignment atta
 
 # Assets:
 gem 'jquery-rails'
-gem 'sass-rails'
+gem 'sassc-rails'
 
 group :production do
   gem 'rails_12factor'
